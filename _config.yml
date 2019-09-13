@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ammar Alyousfi's Website
-title_ar: "موقع عمار اليوسفي"
+title: Ammar's Website
+title_ar: "عمّار"
 email: ammar5656@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ammar Alyousfi website, blog, and resume.
