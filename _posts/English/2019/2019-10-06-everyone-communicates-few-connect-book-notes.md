@@ -11,9 +11,7 @@ permalink: "/:year/everyone-communicates-few-connect-book-notes"
 
 In this post, I will share the notes that I've extracted for myself from "Everyone Communicates, Few Connect" by John C. Maxwell. I read the book because I realized that I'm not a good communicator with new people in my life, maybe because of my introverted personality. Let's begin.
 
-
-
-<img src="/assets/images/2019/every-comm-1.jpg" width=300 style="border:1px solid #333333" />
+<img src="/assets/images/2019/every-comm-1.jpg" width="300" style="border:1px solid #333333">
 
 [Book page on Goodreads](https://www.goodreads.com/book/show/29372448-everyone-communicates-few-connect) | My rating: 3/5
 
