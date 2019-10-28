@@ -1,8 +1,27 @@
+---
+---
+
+$print-fz: 12pt;
+$namecolor: #9A3035;
+// $namecolor: #d43900;
+$accent: #003a6c;
+// $accent: #0038a8;
+$accent: #29396A;
+$namecolor: $accent;
+$bodyfont: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+$bodyfont: "Georgia", "TeX Gyre Termes", TeXGyreTermes, "Nimbus Roman No9 L", STIXGeneral, FreeSerif, Times, "Times New Roman", "Liberation Serif", serif;
+$headfont: "Georgia", "TeX Gyre Termes", TeXGyreTermes, "Nimbus Roman No9 L", STIXGeneral, FreeSerif, Times, "Times New Roman", "Liberation Serif", serif;
+$lineheight: 1.6;
+$textalign: left;
+$headsize: $print-fz * 1.25;
+$subhsize: $print-fz;
+$namesize: $print-fz * 2;
+
 #header {
     margin-bottom: 20px;
 }
 
-.uni-name, .exp-name {
+.float-left {
     float: left;
     font-size: 1em;
 }
@@ -11,8 +30,12 @@
     font-weight: normal;
 }
 
-.uni-years, .exp-years {
+.float-right {
     float: right;
+}
+
+.float-right * {
+    text-align: right;
 }
 
 @keyframes con-an {
@@ -34,13 +57,19 @@ body {
     margin: 20px auto;
     width: 70%;
     max-width: 900px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+    font-family: $bodyfont;
     font-size: 18px;
     line-height: 1.6;
-    /* -webkit-font-smoothing: antialiased; */
-    /* -moz-osx-font-smoothing: grayscale; */
+    // -webkit-font-smoothing: antialiased; 
+    // -moz-osx-font-smoothing: grayscale; 
     text-rendering: optimizeLegibility;
-    /*text-align: justify;*/
+    text-align: $textalign;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        width: 90%;
+    }
 }
 
 .univ-name {
@@ -50,21 +79,26 @@ body {
     margin-top: 0;
 }
 
+.uni-name, .univ-name {
+    font-family: $headfont;
+}
+
 @media print {
     #container {
         margin: 5mm 15mm;
+        margin: 0; // XX
         width: auto;
         max-width: none;
-        font-size: 9pt;
-        line-height: 1.35;
+        font-size: $print-fz;
+        line-height: $lineheight;
     }
 
     .uni-name, .exp-name {
-        font-size: 10pt;
+        font-size: $subhsize;
     }
 
     .univ-name {
-        font-size: 10pt;
+        font-size: $subhsize;
         color: #000000;
     }
 }
@@ -118,8 +152,9 @@ body {
 .prj-lnk {
     color: inherit;
     font-family: 'Courier New', monospace;
+    font-family: "Roboto Mono";
     font-size: 0.9em;
-    vertical-align: middle;
+    vertical-align: baseline;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -130,7 +165,7 @@ body {
 
 @media print {
     #contact-details, #curr-pos {
-        font-size: 9pt;
+        font-size: $print-fz;
     }
 }
 
@@ -165,7 +200,7 @@ h2.section-title {
 
 @media print {
     h2.section-title {
-        font-size: 18px;
+        font-size: $headsize;
     }
 }
 
@@ -213,8 +248,8 @@ h2.section-title {
 
 #name {
     margin-bottom: 8px;
-    margin-top: 8px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+    // margin-top: 8px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, "Segoe UI", Roboto, Helvetica, sans-serif; */
     font-weight: bold;
     /*line-height: 1;*/
     /*font-weight: 900;*/
@@ -223,7 +258,8 @@ h2.section-title {
 #name p {
     display: inline-block;
     margin-bottom: 0;
-    transition: all 5s ease-out;
+    margin-top: 0;
+    /* transition: all 5s ease-out; */
     font-size: 36px;
     /*background: #ffdd71;*/
 }
@@ -235,7 +271,7 @@ h2.section-title {
 
 @media print {
     #name p {
-        font-size: 32px;
+        font-size: $namesize;
         /*border: 1px solid #9a3035;*/
         /*border-right: 1px solid goldenrod;*/
     }
@@ -336,6 +372,12 @@ ul.prj-ul {
     }
 }
 
+@media screen and (max-width: 500px) {
+    #orn {
+        display: none;
+    }
+}
+
 .prj-group-title a,
 .prj-group-title a:visited {
     color: inherit;
@@ -365,7 +407,7 @@ ul.prj-ul {
 }
 
 @page {
-    margin: 2px 2px;
+    margin: 30px;
 }
 
 #print-link,
@@ -439,9 +481,6 @@ p, li {
     color: #5D95F3;
 }
 
-.exp-years, .uni-years {
-    color: #ef6c00;
-}
 
 .prj-group-title::after {
     background-color: #2D2D32;
@@ -484,9 +523,8 @@ p, li {
 
     .section-title span {
         color: #000000;
-        font-family: "TeX Gyre Termes", TeXGyreTermes, "Nimbus Roman No9 L", STIXGeneral, FreeSerif,
-                        Times, "Times New Roman", "Liberation Serif", serif;
-        font-size: 20px;
+        color: #9A3035;
+        font-family: $headfont;
     }
 
     .section hr.hr-section {
@@ -499,6 +537,7 @@ p, li {
 
     .exp-years, .uni-years {
         color: #000000;
+        // font-style: italic;
     }
 
     .prj-group-title::after {
@@ -514,12 +553,11 @@ p, li {
     }
 
     #name p {
-        color: #9A3035;
+        color: $namecolor;
         /*text-transform: uppercase;*/
         font-weight: normal;
         font-variant: small-caps;
-        font-family: "TeX Gyre Termes", TeXGyreTermes, "Nimbus Roman No9 L", STIXGeneral, FreeSerif,
-                        Times, "Times New Roman", "Liberation Serif", serif;
+        font-family: $headfont;
         ;
         letter-spacing: 1px;
     }
@@ -531,4 +569,27 @@ p, li {
     #contact-details {
         text-align: left;
     }
+}
+
+.emph { 
+    // font-weight: bold;
+    // color: $accent;
+    // font-style: italic;
+}
+
+.inline-blk {
+    display: inline-block;
+}
+
+html,body{
+    height:297mm;
+    width:210mm;
+}
+// body {
+//     margin-left: 40px;
+//     margin-top: 40px;
+// }
+
+* {
+    transition: all 0s;
 }

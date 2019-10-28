@@ -6,179 +6,218 @@ permalink: "/resume/"
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Ammar Alyousfi Resume</title>
-  <meta name="description" content="Ammar Alyousfi Resume">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-  <link rel="stylesheet" href="{% link /assets/resume_style.css %}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>Ammar Alyousfi Resume</title>
+    <meta name="description" content="Ammar Alyousfi Resume">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="{{ "/assets/resume-style.css" | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet"> 
 
-</head>
+  </head>
 
-<body>
-  <div id="container">
-    <div id="orn">⁛</div>
-    <div id="header">
-      <div id="name">
-        <p>Ammar Alyousfi</p>
-      </div>
-      <p id="contact-details">Malaysia • ammar5656@gmail.com •
-        +601162078955 (WhatsApp only now) • Born in 1993 • Nationality: Syrian</p>
+  <body>
+    <div id="container">
+      <div id="orn">⁛</div>
+      <div id="header">
+        <div id="name">
+          <p>Ammar Alyousfi</p>
+        </div>
+        <p id="contact-details">Kuala Lumpur, Malaysia •
+          ammar5656@gmail.com •
+          +601162078955</p>
 
-    </div>
-    <div id="res-body">
-      <div class="section">
-        <h2 class="section-title"><span>Education</span></h2>
-        <hr class="hr-section">
-        <div class="subsection">
-          <h3 class="uni-name">Master of Data Science | GPA: 3.98/4</h3>
-          <p class="uni-years">2018 → 2019</p>
-          <div style="clear: both;"></div>
-          <p class="univ-name">University of Malaya, Malaysia</p>
-          <ul class="uni-description">
-            <li>Research project: built and deployed a
-              machine-learning model to predict taxi-trip
-              duration. The process involved data preparation,
-              data exploration, feature engineering,
-              cross-validation, hyperparameter optimization,
-              ensemble methods, etc. The resulting model was
-              deployed
-              using as a Flask application on Google App Engine.
-              The project is available on
-              <a href="http://bit.ly/ds-prj" class="prj-lnk">http://bit.ly/ds-prj</a>
-            </li>
-            <li>Relevant courses: Data Analytics, Programming for
-              Data Science, Big Data Application and Analytics,
-              Big Data Management, Data Mining, Principles of Data
-              Science, Machine Learning for Data Science.
-            </li>
-          </ul>
-        </div>
-        <div class="subsection">
-          <h3 class="uni-name">Bachelor of Science in Computer Engineering | GPA: 93.9%
-            (1<sup>st</sup> rank)</h3>
-          <p class="uni-years">2012 → 2016</p>
-          <div style="clear: both;"></div>
-          <p class="univ-name">Princess Sumaya University for
-            Technology, Jordan</p>
-          <ul class="uni-description">
-            <li>Some relevant courses: Data Structures and
-              Introduction to Algorrithms, Database Systems,
-              Visual Programming, Discrete Mathematics, etc.
-            </li>
-          </ul>
-        </div>
       </div>
-      <div class="section">
-        <h2 class="section-title"><span>Experience</span></h2>
-        <hr class="hr-section">
-        <div class="subsection">
-          <h3 class="exp-name">Data Science and Analytics Intern <span class="at">at
-            </span>Apigate, Malaysia</h3>
-          <p class="exp-years">April, 2019 → July, 2019</p>
-          <div style="clear: both;"></div>
-          <ul class="uni-description">
-            <li>Worked on creating a data warehouse for the company
-              on Google Cloud Platform (BigQuery) to store all
-              company data. Toward that end, I created a Python
-              ETL pipeline that runs weekly to move company data
-              from Salesforce to the data
-              warehouse.
-            </li>
-            <li>Analyzed some of the company data (tens of millions
-              of records) to get business insights and then
-              present those insights to the management using
-              proper format.
-            </li>
-          </ul>
+      <div id="res-body">
+        <div class="section">
+          <h2 class="section-title"><span>Education</span></h2>
+          <hr class="hr-section">
+          <div class="subsection">
+            <div class="float-left">
+              <h3 class="uni-name">University of Malaya</h3>
+              <p class="univ-name">Master of Data Science degree with distinction (GPA:
+                3.98/4)
+              </p>
+            </div>
+            <div class="float-right">
+              <p class="uni-years">Kuala Lumpur, Malaysia</p>
+              <p class="uni-years">Feb 2018 - Oct 2019</p>
+            </div>
+            <div style="clear: both;"></div>
+            <ul class="uni-description">
+              <li>Research project: built and deployed a regression <span class="emph">machine-learning model</span> to predict taxi-trip
+                duration before the trip starts. The process involved preparation, cleaning, and thorough <span class="emph">exploratory
+                  analysis</span> of actual taxi-trips data; it also involved feature engineering, cross-validation, hyperparameter
+                optimization, PCA dimensionality reduction, and ensemble methods. The final model was formed by multi-layer stacking of
+                multiple models and then it was deployed as a <span class="emph">Flask</span> application using Google App Engine. Tools
+                used include
+                Python, Pandas, Matplotlib, Seaborn, Scikit-learn, XGBoost, Jupyter Notebook, and high-performance Google AI-Platform
+                Notebook.
+                Project code and report are available on <a href="http://bit.ly/ds-prj" class="prj-lnk">http://bit.ly/ds-prj</a>
+              </li>
+              <li>Relevant courses: Data Analytics, Data Mining, Machine Learning for Data Science, Programming for
+                Data Science, Big Data Application and Analytics, Big Data Management.
+              </li>
+            </ul>
+          </div>
+          <div class="subsection">
+            <div class="float-left">
+              <h3 class="uni-name">Princess Sumaya University for Technology</h3>
+              <p class="univ-name">B.Sc. degree in Computer Engineering; ranked first (GPA: 93.9%)
+              </p>
+            </div>
+            <div class="float-right">
+              <p class="uni-years">Amman, Jordan</p>
+              <p class="uni-years">Sep 2012 - Sep 2016</p>
+            </div>
+            <div style="clear: both;"></div>
+            <ul class="uni-description">
+              <li>Relevant courses: Data Structures and
+                Introduction to Algorithms, Database Systems,
+                Visual Programming, Discrete Mathematics, Computer Architecture and Organization, Operating Systems.
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="section">
-        <h2 class="section-title"><span>Skills</span></h2>
-        <hr class="hr-section">
-        <div id="skills-cont">
-          <p>
-            <span class="sk-m">Python</span>,
-            <span class="sk-m">machine learning</span>
-            (Scikit-learn,
-            TensorFlow, XGBoost, LightGBM,
-            CatBoost), <span class="sk-m">data analysis</span>
-            (Pandas, Numpy, R),
-            <span class="sk-m">data visualization</span>
-            (Matplotlib, Seaborn, Google
-            Data Studio),
-            <span class="sk-m">web scraping</span> (BeautifulSoup),
-            <span class="sk-m">web development</span>
-            (JavaScript, Flask, Django),
-            <span class="sk-m">databases</span> (SQL),
-            <span class="sk-m">cloud computing</span> (Google Cloud
-            Platform), <span class="sk-m">Hadoop</span>
+        <div class="section">
+          <h2 class="section-title"><span>Experience</span></h2>
+          <hr class="hr-section">
+          <div class="subsection">
+            <div class="float-left">
+              <h3 class="exp-name">Apigate</h3>
+              <p class="univ-name">Data Science and Analytics Intern</p>
+            </div>
+            <div class="float-right">
+              <p class="exp-years">Kuala Lumpur, Malaysia</p>
+              <p class="exp-years">April 2019 - July 2019</p>
+            </div>
+            <div style="clear: both;"></div>
+            <ul class="uni-description">
+              <li>Created an <span class="emph">ETL</span> program using <span class="emph">Python</span> and
+                <span class="emph">Pandas</span> to automatically transfer and sync company data
+                from Salesforce to the data warehouse of the company on Google <span class="emph">BigQuery</span>.
+                The program was scheduled to run weekly on a virtual machine to keep the
+                data in sync. <span class="emph">API</span> services were used to connect to and access Salesforce and
+                BigQuery data. The program processes the data, performs schema mapping, detects
+                schema changes, and produces logs to keep track of its operations.
+              </li>
+              <li>Performed extensive <span class="emph">data analysis</span> on company data (tens of millions of records) to get
+                useful <span class="emph">business insights</span> regarding the company partners and customers. <span class="emph">Python,
+                  SQL, Pandas, and Matplotlib</span> were used to analyze and visualize the data that was stored in Google BigQuery
+                warehouse. Various visualizations, tables, and <span class="emph">Google Data Studio dashboards</span> were used to report
+                the analytics results to the management and then to the CEO.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <h2 class="section-title"><span>Skills</span></h2>
+          <hr class="hr-section">
+          <div id="skills-cont">
+            <p><span class="sk-m">Programming Languages:</span> Python, R, JavaScript.</p>
+            <p><span class="sk-m">Data Analysis and Machine Learning:</span> Pandas, NumPy, Scikit-learn, Keras, XGBoost, LightGBM, etc.
+              Familiar with SAS and Hadoop ecosystem.</p>
+            <p><span class="sk-m">Data Visualization and Dashboards:</span> Matplotlib, Seaborn, Google Data Studio, etc.</p>
+            <p class="inline-blk"><span class="sk-m">Databases:</span> SQL.</p>
+            <p class="inline-blk"><span class="sk-m">Web Scraping:</span> BeautifulSoup, Selenium, HTTrack.</p>
+            <p><span class="sk-m">Web Development:</span> Flask, Django, HTML, CSS, JavaScript.</p>
+            <p><span class="sk-m">Cloud Computing:</span> Google Cloud Platform (Particularly BigQuery, Compute Engine, and Storage), Amazon
+              Web Services (Particularly EC2, S3, and Route 53).
+            </p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title"><span>Projects</span></h2>
+          <hr class="hr-section">
+
+          <p><span class="prj-title">End-to-end data-science projects: </span>In
+            addition to the master-degree project mentioned above, a project was done to
+            build a machine-learning model to <span class="emp">predict house prices</span> based on many housing characteristics (size,
+            construction year, etc.). Data preparation techniques and exploratory data analysis were applied in this project and multiple
+            regression machine-learning algorithms were used and compared including Linear Regression, K Nearest Neighbors, Support Vector
+            Machines,
+            Neural Network, Random Forest, and Gradient Tree Boosting (XGBoost). The complete project report can be found on
+            <a href="http://bit.ly/house-price-pred" class="prj-lnk">http://bit.ly/house-price-pred</a>.
           </p>
-        </div>
-      </div>
 
-      <div class="section">
-        <h2 class="section-title"><span>Projects</span></h2>
-        <hr class="hr-section">
-        <p><span class="prj-title">Data analysis: </span>analyzed
-          interesting dataset to get useful insights and patterns.
-          Some of them are:
-          <ul class="prj-ul">
-            <li>YouTube trending videos analysis: 40,000+ trending
-              videos. Available on
-              <a href="http://bit.ly/YT-analysis"
-                class="prj-lnk">http://bit.ly/YT-analysis</a>
-            </li>
-            <li>Reddit posts analysis: analysis of top 1,000 posts
-              of 18 subreddits. Available on
-              <a href="http://bit.ly/Rd-analysis"
-                class="prj-lnk">http://bit.ly/Rd-analysis</a>
-            </li>
-          </ul>
-        </p>
-        <p><span class="prj-title">Machine learning: </span>Participated
-          in many Kaggle competitions with regression and
-          classification tasks. Some are “Help Navigate Robots”
-          (ranked top 5%),
-          “VSB Power Line Fault Detection”, and “PUBG Finish
-          Placement Prediction”. The code used in these competitions
-          can be found on
-          <a href="http://bit.ly/ML-comp" class="prj-lnk">http://bit.ly/ML-comp</a>
-        </p>
-        <p><span class="prj-title">End-to-end data-science projects: </span>In
-          addition to the master-degree
-          project mentioned above, a project was done to
-          build a model for house-prices prediction;
-          it can be found on
-          <a href="http://bit.ly/house-price-pred"
-            class="prj-lnk">http://bit.ly/house-price-pred</a>.
-        </p>
-        <p><span class="prj-title">Other projects: </span>
-          <ul class="prj-ul">
-            <li>Pair & Compare: a web application that helps
-              developers in choosing and comparing fonts.
-              Available on
-              <a href="http://bit.ly/p-and-c" class="prj-lnk">http://bit.ly/p-and-c</a>
-            </li>
-            <li>Focus Phase: an open-source Python application for
-              time-tracking;
-              it is published on Python Package Index. Available
-              on
-              <a href="http://bit.ly/focus-phase"
-                class="prj-lnk">http://bit.ly/focus-phase</a>
-            </li>
-            <li>S3upload: an open-source Python application that
-              makes it easier
-              to upload files to AWS
-              S3. Available on
-              <a href="http://bit.ly/s3upload" class="prj-lnk">http://bit.ly/s3upload</a>
-            </li>
-          </ul>
-        </p>
+          <p><span class="prj-title">YouTube Trending Videos Analysis:</span> analyzed data on 40,000+ videos to get insights about YouTube
+            trending videos and to see what is common among them. Many informative plots and summarized tables were produced using Python,
+            Pandas, and
+            Seaborn, and other tools. The Jupyter Notebook that contains the analysis code and results can be found on <a
+              href="http://bit.ly/YT-analysis" class="prj-lnk">http://bit.ly/YT-analysis</a>
+          </p>
 
-        <!-- <hr class="note-hr">
+          <!-- <p>
+            <ul class="prj-ul">
+              <li>YouTube trending videos analysis: 40,000+ trending
+                videos. Available on
+                <a href="http://bit.ly/YT-analysis" class="prj-lnk">http://bit.ly/YT-analysis</a>
+              </li>
+              <li>Reddit posts analysis: analysis of top 1,000 posts
+                of 18 subreddits. Available on
+                <a href="http://bit.ly/Rd-analysis" class="prj-lnk">http://bit.ly/Rd-analysis</a>
+              </li>
+            </ul>
+          </p> -->
+
+          <p><span class="prj-title">Kaggle Competitions:</span> Participated in many Kaggle competitions of <span class="emph">regression
+              and classification</span> tasks. The code used in these competitions can be found on <a href="http://bit.ly/ML-comp"
+              class="prj-lnk">http://bit.ly/ML-comp</a>. Some of the competitions:
+            <ul class="prj-ul">
+              <li><span class="prj-title">Help Navigate Robots: </span>In this multi-class classification problem, participants were asked
+                to detect the type of the surface the robots are standing on using time-series data collected from IMU sensors. Used Python,
+                LightGBM for modeling, and Tsfresh package to extract features from the time-series data. Ranked in the top 5% among 1470+
+                competitors. Code used and results: <a href="http://bit.ly/help-robo" class="prj-lnk">http://bit.ly/help-robo</a>
+              </li>
+              <li><span class="prj-title">VSB Power Line Fault Detection:</span> In this classification problem, participants were asked to
+                predict whether signals acquired from power lines have partial discharge patterns. Used Python, Pandas, NumPy, and SciPy for
+                data wrangling and feature extraction. Stacking ensemble-method was used for modeling with multiple models including
+                XGBoost, LightGBM, Scikit-learn Neural Network, and Scikit-learn Logistic Regression. In this competition, the best score
+                was 0.71899, the worst was -0.28109, and my score was 0.58655. Solution explanation and code used: <a
+                  href="http://bit.ly/vsb-pl" class="prj-lnk">http://bit.ly/vsb-pl</a>
+              </li>
+            </ul>
+          </p>
+
+          <p><span class="prj-title">Pair & Compare:</span> A web application that makes it easier to compare fonts and font-pairs. It
+            allows using all 800+ Google font without downloading or installing any of them. It was built using HTML, CSS, JavaScript,
+            Vue.js, etc. It can be visited on <a href="http://bit.ly/p-and-c" class="prj-lnk">http://bit.ly/p-and-c</a>
+          </p>
+
+          <p><span class="prj-title">Focus Phase:</span> An open-source time-tracker command-line application with statistics and
+            visualizations. It is built using Python and published on the Python Package Index. Github link: <a
+              href="http://bit.ly/focus-phase" class="prj-lnk">http://bit.ly/focus-phase</a>
+          </p>
+
+          <p><span class="prj-title">S3upload:</span> an open-source Python application that makes it simple and quick to upload a large
+            number of files to AWS S3. Github link: <a href="http://bit.ly/s3upload" class="prj-lnk">http://bit.ly/s3upload</a>
+          </p>
+
+          <!-- <p><span class="prj-title">Other projects: </span>
+            <ul class="prj-ul">
+              <li>Pair & Compare: a web application that helps
+                developers in choosing and comparing fonts.
+                Available on
+                <a href="http://bit.ly/p-and-c" class="prj-lnk">http://bit.ly/p-and-c</a>
+              </li>
+              <li>Focus Phase: an open-source Python application for
+                time-tracking;
+                it is published on Python Package Index. Available
+                on
+                <a href="http://bit.ly/focus-phase" class="prj-lnk">http://bit.ly/focus-phase</a>
+              </li>
+              <li>S3upload: an open-source Python application that
+                makes it easier
+                to upload files to AWS
+                S3. Available on
+                <a href="http://bit.ly/s3upload" class="prj-lnk">http://bit.ly/s3upload</a>
+              </li>
+            </ul>
+          </p> -->
+
+          <!-- <hr class="note-hr">
                 <p class="note">To view these projects and more, please visit
                     these web pages:
                     <a target="blank_" href="http://ammar-alyousfi.com" class="link">ammar-alyousfi.com</a>,
@@ -188,9 +227,9 @@ permalink: "/resume/"
                     <a target="blank_" href="https://stackoverflow.com/users/2282785/ammar" class="link">
                         stackoverflow.com/users/2282785/ammar</a>.
                 </p> -->
-      </div>
-      <!-- <p id="hr-header"></p> -->
-      <!-- <div class="section"> <h2 class="section-title">Links</h2> <hr> <div id="links-cont">
+        </div>
+        <!-- <p id="hr-header"></p> -->
+        <!-- <div class="section"> <h2 class="section-title">Links</h2> <hr> <div id="links-cont">
             <a href="http://ammar-alyousfi.com" class="link">Personal website and blog: ammar-alyousfi.com</a>
             <a href="https://www.kaggle.com/ammar111" class="link">Kaggle: kaggle.com/ammar111</a>
             <a href="https://stackoverflow.com/users/2282785/ammar" class="link">
@@ -198,9 +237,9 @@ permalink: "/resume/"
             <a href="https://github.com/ammar1y" class="link">Github: github.com/ammar1y</a>
             <a href="https://www.linkedin.com/in/ammar-alyousfi/" class="link">LinkedIn: linkedin.com/in/ammar-alyousfi</a>
             <a href="https://twitter.com/ammar_cel" class="link">Twitter: twitter.com/ammar_cel</a> </div> </div> -->
+      </div>
+      <div id="footer"></div>
     </div>
-    <div id="footer"></div>
-  </div>
-</body>
+  </body>
 
 </html>
