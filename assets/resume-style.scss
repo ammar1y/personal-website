@@ -23,7 +23,6 @@ $namesize: $print-fz * 2;
 
 .float-left {
     float: left;
-    font-size: 1em;
 }
 
 .uni-name .at, .exp-name .at {
@@ -55,6 +54,7 @@ body {
 
 #container {
     margin: 20px auto;
+    margin: 50px 70px;
     width: 70%;
     max-width: 900px;
     font-family: $bodyfont;
@@ -73,7 +73,7 @@ body {
 }
 
 .univ-name {
-    color: #5D95F3;
+    // color: #5D95F3;
     /*font-size: 0.8em;*/
     font-weight: bold;
 }
@@ -223,7 +223,7 @@ h2.section-title {
     display: block;
     height: 0px;
     border: 0;
-    border-top: 1px solid #ffb300;
+    border-top: 1px solid #000000;
     opacity: 0.5;
     padding: 0;
 }
@@ -242,7 +242,7 @@ h2.section-title {
 
 #name,
 #contact-details, #curr-pos {
-    text-align: center;
+    text-align: left;
 }
 
 #curr-pos a, #curr-pos a:visited, #contact-details a, #contact-details a:visited {
@@ -287,7 +287,7 @@ h2.section-title {
 #name p:hover {
     color: #272727;
     /*background: #EFC94C;*/
-    text-shadow: 7px 0px 0 cyan, -7px 0px 0 red;
+    text-shadow: 2px 0px 0 cyan, -3px 0px 0 red;
     transform: scale(1.1, 1.1);
 }
 
@@ -457,31 +457,32 @@ ul.prj-ul {
 }
 
 *::-moz-selection {
-    background: #ffdd71;
+    background: #568203;
 }
 
 *::selection {
-    background: #ffdd71;
+    background: #36454f;
+    color: #fff;
 }
 
 body {
-    background: #2D2D32;
+    // background: #2D2D32;
 }
 
 p, li {
-    color: #bdbdbd;
+    // color: #bdbdbd;
 }
 
 #header p {
-    color: #ffb300;
+    // color: #ffb300;
 }
 
 .section-title span {
-    color: #ef6c00;
+    // color: #ef6c00;
 }
 
 .exp-name, .uni-name, .skill-group-title, .prj-group-title {
-    color: #5D95F3;
+    // color: #5D95F3;
 }
 
 
@@ -498,17 +499,20 @@ p, li {
     box-shadow: 0px 1px 1px #ffb300;
 }
 
-*::-moz-selection {
-    background: #004d40;
-}
-
-*::selection {
-    background: #004d40;
-}
 
 .prj-title {
     font-weight: bold;
-    color: #5D95F3;
+    // color: #5D95F3;
+}
+
+.section-title span {
+    color: #000000;
+    color: #9A3035;
+    font-family: $headfont;
+}
+
+#name p {
+    color: $namecolor;
 }
 
 @media print {
@@ -522,16 +526,6 @@ p, li {
 
     #header p {
         color: #000000;
-    }
-
-    .section-title span {
-        color: #000000;
-        color: #9A3035;
-        font-family: $headfont;
-    }
-
-    .section hr.hr-section {
-        border-top-color: #000000;
     }
 
     .exp-name, .uni-name, .skill-group-title, .prj-group-title {
@@ -556,12 +550,10 @@ p, li {
     }
 
     #name p {
-        color: $namecolor;
         /*text-transform: uppercase;*/
         font-weight: normal;
         font-variant: small-caps;
         font-family: $headfont;
-        ;
         letter-spacing: 1px;
     }
 
@@ -582,6 +574,10 @@ p, li {
 
 .inline-blk {
     display: inline-block;
+}
+
+#orn { 
+    display: none;
 }
 
 // html,body{
