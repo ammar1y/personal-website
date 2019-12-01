@@ -271,7 +271,25 @@ permalink: "/resume/"
         </div>
       </div>
     </div>
-    <script> var mdls = ["umcert", "psutcert", "ibmdscerts", "apigate-sa", "prj1", "prj2", "prj3", "prj4", "prj5", "prj6"]; // "apigate-logo", "skilllogos" for (m of mdls) { var modal = document.getElementById(m + "Modal"); var img = document.getElementById(m); console.log(img); console.log(m); var modalImg = document.getElementById(m + "Img"); var captionText = document.getElementById("caption"); img.onclick = function () { modal.style.display = "flex"; modalImg.src = this.src; captionText.innerHTML = this.alt; } var spans = document.getElementsByClassName("close"); for (span of spans) { span.onclick = function () { modal.style.display = "none"; } } } </script>
+    <script> var mdls = ["umcert", "psutcert", "ibmdscerts", "apigate-sa", "prj1", "prj2", "prj3", "prj4", "prj5", "prj6"]; 
+      // "apigate-logo", "skilllogos" 
+      for (m of mdls) { 
+        var modal = document.getElementById(m + "Modal"); 
+        var img = document.getElementById(m); 
+        var modalImg = document.getElementById(m + "Img"); 
+        var captionText = document.getElementById("caption"); 
+        img.onclick = function () { 
+          modal.style.display = "flex"; 
+          modalImg.src = this.src; 
+          captionText.innerHTML = this.alt; 
+        } 
+        var spans = document.getElementsByClassName("close"); 
+        for (span of spans) { 
+          span.onclick = function () { 
+            modal.style.display = "none"; 
+          } 
+        } 
+      } </script>
   </body>
 
 </html>
