@@ -3,29 +3,34 @@
 
 $namecolor: #9a3035;
 $namecolor: #dc4e24;
+$namecolor: #cf021a;
 $accent: #29396a;
 $accent: #214658;
-$bodyfont: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
-  "Segoe UI", Roboto, Helvetica, sans-serif;
-$bodyfont: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+$accent: #1d2644;
+
+$bodyfont: "CMU Sans Serif", "Merriweather Sans", -apple-system, BlinkMacSystemFont,
   "Helvetica Neue", Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
-$headfont: "Merriweather", "TeX Gyre Termes", TeXGyreTermes,
+$headfont: "CMU Serif", "Merriweather", "TeX Gyre Termes", TeXGyreTermes,
   "Nimbus Roman No9 L", STIXGeneral, FreeSerif, Times, "Times New Roman",
   "Liberation Serif", serif;
+
 // $headfont: $bodyfont;
 $lineheight: 1.8;
-$print-lineheight: 1.6;
+// changes
+$print-lineheight: 1.4;
 $textalign: left;
 $fz: 12pt;
-$print-fz: 11pt;
+// changed
+$print-fz: 13pt;
 $headsize: $fz * 1.4;
 $print-headsize: $print-fz * 1.4;
 $subhsize: $fz;
 $print-subhsize: $print-fz;
 $namesize: $fz * 2;
-$print-namesize: $print-fz * 2;
+// change
+$print-namesize: $print-fz * 1.5;
 $cont-fz: $fz;
-$print-cont-fz: $print-fz;
+$print-cont-fz: 0.9 * $print-fz;
 
 $pole-width: 10px;
 
@@ -193,8 +198,7 @@ body {
 
 .prj-lnk {
   color: inherit;
-  font-family: "Courier New", monospace;
-  font-family: "Roboto Mono";
+  font-family: "CMU Typewriter Text", "Roboto Mono", "Courier New", monospace;
   font-size: 0.9em;
   vertical-align: baseline;
   text-decoration: none;
@@ -565,6 +569,8 @@ li {
   //   font-weight: bold;
   //   font-variant: small-caps;
   font-family: $headfont;
+  // change
+  font-family: "Merriweather";
   // font-style: italic;
   letter-spacing: 1px;
 }
@@ -615,7 +621,7 @@ li {
 }
 
 .emph {
-  font-weight: bold;
+  // font-weight: bold;
   // color: $accent;
   // font-style: italic;
 }
@@ -781,7 +787,7 @@ $cpw: 20px;
   .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .flex .flex-left {
@@ -991,11 +997,153 @@ $cpw: 20px;
   }
 }
 
-// @media print {
-//   .flex .flex-right {
-//     display: none;
-//   }
-//   .flex .flex-left {
-//     width: 100%;
-//   }
-// }
+.emph2 {
+  color: #1D2644;
+  text-shadow: 0px 1px 0px #870C1C;
+}
+
+@page {
+  margin: 8mm 7mm;
+}
+
+@media print {
+h2.section-title {
+  background-color: #dddddd;
+  // background-color: #363636;
+  margin-bottom: 0;
+  // padding-bottom: 4px;
+}
+.section hr.hr-section {
+  margin: 0 0 4px 0;
+  background: #333;
+  color: #333;
+  border-top: 2px solid #000000;
+  opacity: 1;
+}
+}
+
+h2.section-title span {
+  color: #1D2644;
+}
+h2.section-title span::after {
+  content: ":";
+  font-weight: normal;
+  color: #870C1C;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+#header > div:nth-child(1) {
+  width: 50%;
+  order: 1;
+}
+#header > div:nth-child(2) {
+  width: 15%;
+  align-self: center;
+  order: 3;
+}
+#header > div:nth-child(3) {
+  width: 30%;
+  align-self: center;
+  order: 2;
+}
+
+#ppic {
+  // width: 100px;
+  display: inline-block;
+}
+#ppic img {
+  border: 1px solid #1D2644;
+  border-radius: 30%;
+  display: block;
+  max-width: 100px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 0 1px 1px #870C1C;
+}
+
+@media screen {
+  #header > div:nth-child(1) {
+    width: 40%;
+  }
+  #header > div:nth-child(2) {
+    width: 15%;
+    
+  }
+  #header > div:nth-child(3) {
+    width: 30%;
+  }
+  #ppic img {
+    border: 1px solid #1D2644;
+    border-radius: 30%;
+    max-width: 150px;
+    box-shadow: 0 0 0 0 #870C1C;
+  }
+}
+
+#name {
+  display: inline-block;
+  background-color: #000000;
+  line-height: 1;
+  margin-bottom: 0;
+}
+#name p {
+  display: inline-block;
+  color: #f39f57;
+  font-weight: bold;
+  padding: 6px 6px;
+  line-height: 1;
+}
+@media screen {
+  #name p {
+    // background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff);
+    // background-image:    -moz-linear-gradient(left, #E0F8F7, #585858, #fff);
+    // background-image:     -ms-linear-gradient(left, #E0F8F7, #585858, #fff);
+    // background-image:      -o-linear-gradient(left, #E0F8F7, #585858, #fff);
+    background-image: repeating-linear-gradient(
+      to right,
+      #fad47a 4%,
+      #f39f57 8%,
+      #e88b56 10%
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+@media print {
+  #links * {
+    font-size: $print-fz * 0.8;
+    text-align: right;
+  }
+}
+
+#endor {
+  text-align: center;
+}
+#endor img {
+  display: inline-block;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+@media screen {
+  #endor img {
+    max-width: 500px;
+  }
+}
+
+.pr-br {
+  display: none;
+}
+@media print {
+  .pr-br {
+    display: block;
+  }
+}
