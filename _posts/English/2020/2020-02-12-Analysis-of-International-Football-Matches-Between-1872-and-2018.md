@@ -7,7 +7,7 @@ tags: data-science data-analysis data-visualization football
 permalink: "/:year/analysis-of-international-football-matches-between-1872-and-2018"
 ---
 
-<img src="/assets/images/2019/clustnt20.png" style="border:1px solid #333333">
+<img src="/assets/images/2020/fban-head.jpg" style="border:1px solid #333333">
 
 In this post, I will present the results of a thorough analysis of international football matches that took place between 1872 and 2018 (147 years). 
 
@@ -52,7 +52,7 @@ The analysis was performed using Python programming language; [Pandas](https://p
 
 The whole analysis with the code used and with explanations about the operations performed can be found in a Jupyter notebook in [this Github repository]XX. Please note that the notebook contains extra analytics that are not presented in this post. So if you want everything, see the notebook.
 
-And now, **let's dive** into the analysis results.
+And now, **let's dive** into the analysis results. If you need to see an image in bigger size, right-click on the image and open it in a new tab.
 
 ## Analysis Results
 
@@ -166,5 +166,6 @@ For future work, I might do more in-depth analysis focusing on particular teams 
 
 Also, an analysis can be done to see which teams have correlated performance (i.e. their performances improve together and worsen together). Moreover, an analysis can be done to compare continents with each other like comparing South American teams and European teams. Finally, an analysis can be performed on teams that share something in common like Gulf Cooperation Council teams.
 
+---
 
-
+Liked this post? Share it and help me a reach bigger audience: [**link to this post**]({% post_url /English/2020/2020-02-12-Analysis-of-International-Football-Matches-Between-1872-and-2018 %}?src=pstmsg)
