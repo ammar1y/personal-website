@@ -50,7 +50,7 @@ The analysis was performed using Python programming language; [Pandas](https://p
 
 ## Code of the Analysis
 
-The whole analysis with the code used and with explanations about the operations performed can be found in a Jupyter notebook in [this Github repository]XX. Please note that the notebook contains extra analytics that are not presented in this post. So if you want everything, see the notebook.
+The whole analysis with the code used and with explanations about the operations performed can be found in a Jupyter notebook in [this Github repository](https://github.com/ammar1y/Analysis-of-International-Football-Matches-Between-1872-and-2018). Please note that the notebook contains extra analytics that are not presented in this post. So if you want everything, see the notebook.
 
 And now, **let's dive** into the analysis results. If you need to see an image in bigger size, right-click on the image and open it in a new tab.
 
@@ -147,6 +147,14 @@ From this treemap plot, we can see that **friendly** matches constitute the larg
 ![](/assets/images/2020/fban-years.png)
 
 From this plot which shows the number of matches per year, we can notice that, generally, the number of matches tend to increase over the years. The year that witnessed more matches than all other years was **2008** with1091 matches.
+
+### How does the number of goals change through years?
+
+![](/assets/images/2020/fban-years-goals.png)
+
+And to see the relationship between the number of matches and the number of goals through the years, the following plot combines the previous two plots.
+
+![](/assets/images/2020/fban-years-count-goals.png)
 
 ### Which month through history had more matches? Is it June, August, or others? Does the number of matches actually differ from month to month?
 
