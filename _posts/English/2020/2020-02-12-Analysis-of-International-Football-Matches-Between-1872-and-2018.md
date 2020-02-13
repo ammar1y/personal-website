@@ -64,7 +64,7 @@ The results will be presented as visualizations that answer the questions mentio
 
 So the answer is **Sweden** with 1,004 matches followed closely by **England** with 999 matches followed by both **Brazil** and **Argentina** with 966 matches.
 
-This top-10 plot has 5 countries in Europe, 4 countries in South America, and 1 country in Asia.
+This top-10 plot has 5 countries in Europe, 3 countries in South America, 1 country in North America, and 1 country in Asia.
 
 The plot shows also the tournaments played by each of the teams. For example, we can see that most of the matches played by Sweden were friendly matches accompanied by a considerable percentage of matches in FIFA World Cup and UEFA Euro tournaments. 
 
