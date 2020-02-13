@@ -5,6 +5,7 @@ date: 2020-02-12
 categories: data-science 
 tags: data-science data-analysis data-visualization football 
 permalink: "/:year/analysis-of-international-football-matches-between-1872-and-2018"
+sharing-img: "/assets/images/2020/fban-head.jpg"
 ---
 
 <img src="/assets/images/2020/fban-head.jpg" style="border:1px solid #333333">
