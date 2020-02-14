@@ -9,10 +9,6 @@ permalink: "/ar/:year/analysis-of-international-football-matches-between-1872-an
 sharing-img: "/assets/images/2020/fban-head.jpg"
 ---
 
-
-
-تحليل المباريات الدولية بين عام 1872 و 2018 (أكثر من 40,000 مباراة)
-
 <img src="/assets/images/2020/fban-head.jpg" style="border:1px solid #333333">
 
 في هذا المنشور سأعرض نتائج تحليل البيانات للمباريات الدولية التي أقيمت بين عام 1872 وعام 2018 (147سنة). وأعني بالمباريات الدولية المباريات بين المنتخبات الوطنية مثل منتخب البرازيل والمنتخب الألماني ومنتخب السعودية إلخ.
@@ -21,7 +17,7 @@ sharing-img: "/assets/images/2020/fban-head.jpg"
 
 ![](/assets/images/2020/footballanl-1.png)
 
-**ملاحظة**: لقد قمت بإجراء تحليل البيانات هذا وكتبت عنه باللغة الإنجليزية في مدونتي الإنجليزية وحقق انتشاراً جيداً، وهنا أنشره باللغة العربية عسى أن يجد جمهوراً عربياً.
+**ملاحظة**: لقد قمت بإجراء تحليل البيانات هذا [وكتبت عنه باللغة الإنجليزية في مدونتي الإنجليزية](https://ammar-alyousfi.com/2020/analysis-of-international-football-matches-between-1872-and-2018) وحقق انتشاراً جيداً (انظر [هنا](https://www.reddit.com/r/footballtactics/comments/f3aj7z/i_analyzed_over_40000_international_matches_from/) و[هنا](https://www.reddit.com/r/dataisbeautiful/comments/f2w3mq/oc_i_analyzed_over_40000_international_matches/) و[هنا](https://www.reddit.com/r/soccer/comments/f2nsrp/analysis_results_of_international_football/))، وهنا أنشره باللغة العربية عسى أن يلقى قبولاً من الجمهور العربي.
 
 ## أهمية هذا التحليل
 

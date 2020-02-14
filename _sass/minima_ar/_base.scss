@@ -256,7 +256,7 @@ table {
 }
 
 .post ol, .post ul {
-  padding-left: 2rem;
+  padding-right: 2rem;
   margin: .5rem 0;
 }
 
@@ -270,9 +270,9 @@ table {
   font-weight: bold;
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1.1em; /* Also needed for space (tweak if needed) */
+  margin-right: -1.1em; /* Also needed for space (tweak if needed) */
 }
 
 .post ol > li > *:not(ol):not(ul), .post ul > li > *:not(ol):not(ul) {
-  padding-left: .25rem;
+  padding-right: .25rem;
 }
