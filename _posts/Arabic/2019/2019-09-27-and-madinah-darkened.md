@@ -5,7 +5,7 @@ date: 2019-09-27
 categories: ملخصات كتب
 tags: الإسلام ملخص كتاب سيرة
 postlang: arabic
-permalink: "/:year/and-madinah-darkened"
+permalink: "/ar/:year/and-madinah-darkened"
 ---
 
 

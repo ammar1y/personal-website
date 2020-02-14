@@ -14,9 +14,11 @@ In this post, I will present the results of a thorough analysis of international
 
 International matches means matches between national teams like Brazil, Italy, Japan, Egypt, etc.
 
-The analysis uses a dataset published on Kaggle on [this link](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017). Each row in the dataset represents a match. For each match, the dataset lists its date, the two teams participating in the match, the result of the match, the tournament، the country that hosted the match, and other info. The figure below shows the first few rows of this dataset.
+The analysis uses a dataset published on Kaggle on [this link](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017). Each row in the dataset represents a match. For each match, the dataset lists its date, the two teams participating in the match, the result of the match, the tournament، the country that hosted the match, and other info. The figure below shows the first few rows of this dataset. 
 
 ![](/assets/images/2020/footballanl-1.png)
+
+The dataset owner says that "the matches are strictly men's full internationals and the data does not include Olympic Games or matches where at least one of the teams was the nation's B-team, U-23 or a league select team".
 
 Regarding the tournament column in the dataset, it lists the name of the tournament of the match like "FIFA World Cup" tournament and "UEFA Euro" tournament, or "Friendly" for regular friendly matches.
 
@@ -168,6 +170,25 @@ We can see that the number of matches differs from one month to another. **June*
 ![](/assets/images/2020/fban-day.png)
 
 We can see that more matches occurred on **Sunday** than all other days of the week: 9,943 matches. Sunday is followed closely by **Wednesday** with 9,808 matches. On the opposite side, **Monday** witnessed the least number of matches: 2,313. 
+
+## Summarized Results
+
+These summarized results don't substitute the results above but can help you remember somethings from the analysis.
+
+During the period between 1872 and 2018:
+
+- Sweden 🇸🇪 played matches more than any other country
+- German 🇩🇪 played World Cup matches more than any other country
+- Brazil 🇧🇷 won matches more than other countries
+- Finland 🇫🇮 lost matches more than other countries
+- Brazil 🇧🇷 has 461 *net* wins—more than any other country
+- Luxembourg 🇱🇺 has 276 *net* defeats—more than any other country
+- England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 scored more goals than the rest
+- Brazil 🇧🇷 scored more goals in World Cup than the rest
+- Argentina 🇦🇷 and Uruguay 🇺🇾 played against each other more than any other two teams
+- 23.1% of international matches ended in draw
+- June witnessed more matches than other months
+- Sunday witnessed more matches than other days
 
 ## Future Work
 
