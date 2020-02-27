@@ -2,8 +2,8 @@
 layout: post
 title: "Comparing and Clustering the Neighborhoods of New York City and Toronto"
 date: 2019-11-20
-categories: data-science 
-tags: data-science machine-learning data-analysis data-visualization 
+categories: [data-science] 
+tags: [data-science, machine-learning, data-analysis, data-visualization, data-science-project, clustering] 
 permalink: "/:year/comparing-and-clustering-the-neighborhoods-of-new-york-city-and-toronto"
 ---
 

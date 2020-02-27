@@ -2,8 +2,8 @@
 layout: post
 title: "Analysis of International Football Matches Between 1872 and 2018 (More than 40,000 Matches)"
 date: 2020-02-12
-categories: data-science 
-tags: data-science data-analysis data-visualization football 
+categories: [data-science] 
+tags: [data-science, data-analysis, data-visualization, football-analysis, data-science-project, python, pandas, matplotlib] 
 permalink: "/:year/analysis-of-international-football-matches-between-1872-and-2018"
 sharing-img: "/assets/images/2020/fban-head.jpg"
 ---

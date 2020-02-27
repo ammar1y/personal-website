@@ -2,8 +2,8 @@
 layout: post
 title: "Everyone Communicates, Few Connect - Book Notes"
 date: 2019-10-06
-categories: book-notes 
-tags: connection communication-skills book social-skills
+categories: [books]
+tags: [book-summary, communication-skills, social-skills]
 permalink: "/:year/everyone-communicates-few-connect-book-notes"
 ---
 

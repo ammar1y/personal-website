@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home_ar
-title: "المدونة"
+title: "عربي"
 permalink: /ar/
+order: "a9"
 ---

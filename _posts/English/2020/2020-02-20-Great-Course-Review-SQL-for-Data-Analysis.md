@@ -2,8 +2,8 @@
 layout: post
 title: "Great Course Review: SQL for Data Analysis"
 date: 2020-02-20
-categories: data-science 
-tags: data-science sql data-analysis databases window-functions advanced-sql 
+categories: [data-science] 
+tags: [data-science, sql, data-analysis, databases, window-functions, advanced-sql, resources, course]
 permalink: "/:year/great-course-review-sql-for-data-analysis"
 sharing-img: "/assets/images/2020/sqldac-1.png"
 ---

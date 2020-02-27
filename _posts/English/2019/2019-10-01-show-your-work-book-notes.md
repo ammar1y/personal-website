@@ -2,8 +2,8 @@
 layout: post
 title: "Show Your Work! Book Notes"
 date: 2019-10-01
-categories: book-notes 
-tags: creativity book resume portfolio
+categories: [books] 
+tags: [creativity, book-summary, portfolio]
 permalink: "/:year/show-your-work-book-notes"
 ---
 
