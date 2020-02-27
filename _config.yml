@@ -18,14 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ammar's Website
+title: "Ammar's Website"
+tagline: "A blog about data science."
 title_ar: "عمّار"
+author: "Ammar Alyousfi"
 email: ammar5656@gmail.com
-description: "The personal website, blog, and resume of Ammar Alyousfi."
+logo: "/assets/logo.png"
+description: "The personal website of Ammar Alyousfi which contains a blog about data science, data analysis, 
+data visualization, machine learning, Python, and more."
 # baseurl: "Personal-Website" # the subpath of your site, e.g. /blog
 url: "https://ammar-alyousfi.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  ""
+twitter_username: "ammar_cel"
+github_username:  "ammar1y"
+instagram_username: "ammar.you"
+stackoverflow_username: "ammar-alyousfi"
+kaggle_username: "ammar111"
+rss: "Subscribe (RSS)"
+social:
+  name: Ammar Alyousfi
+  links:
+    - https://github.com/ammar1y
+    - https://www.linkedin.com/in/ammar-alyousfi/
+    - https://www.kaggle.com/ammar111
+    - https://stackoverflow.com/users/2282785/ammar-alyousfi
+    - https://www.quora.com/profile/Ammar-Alyousfi
+    - https://www.instagram.com/ammar.you/
+
+paginate: 19
 
 # Build settings
 theme: minima
@@ -33,6 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 google_analytics: "UA-117443607-1"
 
