@@ -23,7 +23,7 @@ title_ar: "عمّار"
 email: ammar5656@gmail.com
 description: "The personal website, blog, and resume of Ammar Alyousfi."
 # baseurl: "Personal-Website" # the subpath of your site, e.g. /blog
-url: "http://ammar-alyousfi.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ammar-alyousfi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
 
