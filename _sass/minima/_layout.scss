@@ -3,11 +3,14 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  // border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-dark;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  background-color: $dsd-dark-grey;
 }
 
 .site-title {
@@ -21,6 +24,7 @@
   &,
   &:visited {
     color: $grey-color-dark;
+    color: $dsd-light-grey;
   }
 }
 
@@ -38,6 +42,7 @@
 
   .page-link {
     color: $text-color;
+    color: $dsd-light-grey;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -182,6 +187,8 @@
 
 .page-heading {
   @include relative-font-size(2);
+  
+  color: $dsd-dark-grey;
 }
 
 .post-list-heading {
@@ -200,6 +207,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  color: $dsl-grey;
 }
 
 .post-categories, .post-tags {
@@ -218,6 +226,37 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  color: $dsd-dark-grey;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 16px;
+    background-color: #FFC803;
+  }
+  &:visited {
+    color: $dsd-dark-grey;
+  }
+  &:hover {
+    // text-shadow: 0px 0px 150px #FFC803;
+    // color: #FF3E2F;
+    color: #003f5c;
+    transition: all 0.5s;
+  }
+  &:hover::after {
+    width: 80%; 
+    height: 30px;
+    transition: width 5s, height 5s;
+    opacity: 0.1;
+  }
+}
+
+$transition-period: 0.3s;
+* {
+  transition: color $transition-period, text-decoration $transition-period, height 3s, text-shadow 3s;
 }
 
 
