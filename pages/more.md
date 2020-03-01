@@ -5,4 +5,4 @@ permalink: /more/
 order: "a7"
 ---
 
-- [Color Palettes]({% link color_palettes.html %})
+- [Color Palettes](/color-palettes/)

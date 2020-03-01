@@ -2,8 +2,9 @@
 layout: post_ar
 title: "تحليل المباريات الدولية بين عام 1872 و 2018 (أكثر من 40,000 مباراة)"
 date: 2020-02-14
-categories: علم البيانات 
-tags: علم-البيانات تحليل-البيانات كرة-القدم
+categories: [علم-البيانات] 
+tags: [علم-البيانات, تحليل-البيانات, كرة-القدم, مشروع, تصوير-البيانات]
+description: ""
 postlang: arabic 
 permalink: "/ar/:year/analysis-of-international-football-matches-between-1872-and-2018"
 sharing-img: "/assets/images/2020/fban-head.jpg"

@@ -253,3 +253,15 @@
     }
   }
 }
+
+* {
+  direction: rtl;
+}
+
+.site-title {
+  float: right;
+}
+
+.site-nav {
+  float: left;
+}

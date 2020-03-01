@@ -2,6 +2,7 @@
 layout: page
 title: Categories
 permalink: /categories/
+lang: "english"
 order: "a1"
 ---
 

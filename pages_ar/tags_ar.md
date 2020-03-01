@@ -1,11 +1,13 @@
 ---
-layout: default
-permalink: /tags/
+layout: page_ar
+permalink: /ar/tags/
+lang: "arabic"
+title: "الوسوم"
 ---
 
 {% for tag in site.tags %}
 {% assign tag_fl = tag[0] | slice: 0 %}
-{% if tag_fl < "z" %}
+{% if tag_fl > "z" %}
 <div id="{{ tag[0] }}"></div>
   <h3>{{ tag[0] | capitalize | replace: "-", " "}}</h3>
   <a name="{{ tag[0] }}"></a>

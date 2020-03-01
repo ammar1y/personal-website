@@ -2,8 +2,9 @@
 layout: post_ar
 title: "وأظلمت المدينة - مقتطفات من كتاب"
 date: 2019-09-27
-categories: ملخصات كتب
-tags: الإسلام ملخص كتاب سيرة
+categories: [كتب]
+tags: [الإسلام ,ملخص-كتاب ,سيرة, وفاة-النبي]
+description: ""
 postlang: arabic
 permalink: "/ar/:year/and-madinah-darkened"
 ---
