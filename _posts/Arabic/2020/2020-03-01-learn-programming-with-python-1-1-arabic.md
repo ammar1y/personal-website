@@ -6,7 +6,7 @@ categories: [دورة-تعلم-البرمجة-بلغة-بايثون]
 tags: [بايثون, برمجة, لغات-برمجة, تعلم-البرمجة, البرمجة-للمبتدئين, تعلم-البرمجة-بالعربي]
 postlang: arabic 
 permalink: "/ar/:year/learn-programming-with-python-1-1-arabic"
-sharing-img: "/assets/images/2020/fban-head.jpg"
+sharing-img: "/assets/images/2020/pyc-1-6.png"
 
 ---
 
