@@ -11,7 +11,7 @@ layout: default_ar
 
   {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "المنشورات" }}</h2> -->
-  <ul class="post-list">
+  <ul class="post-list" id="listingTable">
     {%- for post in site.posts -%}
     {%- if post.postlang == 'arabic' -%}
     <li>
@@ -30,8 +30,16 @@ layout: default_ar
     {%- endfor -%}
   </ul>
 
+  <p id="page-nav">
+    <a href="javascript:prevPage()" id="btn_prev">→</a>
+    الصفحة: <span id="page"></span>
+    <a href="javascript:nextPage()" id="btn_next">←</a>
+  </p>  
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via
       RSS</a></p>
   {%- endif -%}
 
 </div>
+
+{%- include pagination.html -%}
