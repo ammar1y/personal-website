@@ -1,16 +1,16 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div class="wrapper-footer">
 
-    <h2 class="footer-heading">{{ site.title_ar | escape }}</h2>
+    {%comment%}<h2 class="footer-heading">{{ site.title_ar | escape }}</h2>{%endcomment%}
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+              {{ site.author_ar | escape }}
             {%- else -%}
               {{ site.title_ar | escape }}
             {%- endif -%}
@@ -26,7 +26,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{- site.description_ar | escape -}}</p>
       </div>
     </div>
 

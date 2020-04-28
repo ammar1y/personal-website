@@ -20,12 +20,14 @@
 
 title: "Ammar's Website"
 tagline: "A blog about data science."
-title_ar: "المدونة"
+title_ar: "موقع عمار اليوسفي"
 author: "Ammar Alyousfi"
+author_ar: "عمار اليوسفي"
 email: ammar5656@gmail.com
 logo: "/assets/logo.png"
 description: "The personal website of Ammar Alyousfi which contains a blog about data science, data analysis, 
 data visualization, machine learning, Python, and more."
+description_ar: ""
 # baseurl: "Personal-Website" # the subpath of your site, e.g. /blog
 url: "https://ammar-alyousfi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "ammar_cel"

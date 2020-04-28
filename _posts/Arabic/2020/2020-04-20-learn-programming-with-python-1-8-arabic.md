@@ -1,7 +1,7 @@
 ---
 layout: post_ar
 title: "تعلم البرمجة بلغة بايثون - الدرس الثامن: أنواع البيانات في بايثون"
-date: 2020-04-19
+date: 2020-04-20
 categories: [دورة-تعلم-البرمجة-بلغة-بايثون] 
 tags: [بايثون, برمجة, لغات-برمجة, تعلم-البرمجة, البرمجة-للمبتدئين, تعلم-البرمجة-بالعربي]
 postlang: arabic 
@@ -65,3 +65,4 @@ str
 
 ## فيديو الدرس
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WNMAnnXDsI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

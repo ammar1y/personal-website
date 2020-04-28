@@ -1,7 +1,7 @@
 ---
 layout: post_ar
-title: "تعلم البرمجة بلغة بايثون - الدرس الثامن: تحويل أنواع البيانات في بايثون"
-date: 2020-04-19
+title: "تعلم البرمجة بلغة بايثون - الدرس التاسع: تحويل أنواع البيانات في بايثون"
+date: 2020-04-26
 categories: [دورة-تعلم-البرمجة-بلغة-بايثون] 
 tags: [بايثون, برمجة, لغات-برمجة, تعلم-البرمجة, البرمجة-للمبتدئين, تعلم-البرمجة-بالعربي]
 postlang: arabic 
@@ -9,7 +9,7 @@ permalink: "/ar/:year/learn-programming-with-python-1-9-arabic"
 sharing-img: "/assets/images/2020/pyc-9-1.png"
 ---
 
-![تعلم البرمجة بلغة بايثون - الدرس الثامن: تحويل أنواع البيانات في بايثون](/assets/images/2020/pyc-9-1.png)
+![تعلم البرمجة بلغة بايثون - الدرس التاسع: تحويل أنواع البيانات في بايثون](/assets/images/2020/pyc-9-1.png)
 
 في هذا الدرس سنتعرف على كيفية تحويل أنواع البيانات في بايثون وسنرى متى سنحتاج إلى ذلك في برامجنا.
 
@@ -85,4 +85,6 @@ es = int(es)
 ```
 
 ## فيديو الدرس
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qbMZMkEb_As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

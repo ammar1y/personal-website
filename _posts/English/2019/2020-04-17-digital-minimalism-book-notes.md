@@ -54,10 +54,16 @@ To allow an optional technology back into your life at the end of the digital de
 
 ### The Importance of Solitude
 
-A growing amount of research suggests that the time and space for quiet reflection the cottage enabled may have played a key role in helping Lincoln make sense of the traumas of the Civil War and tackle the hard decisions he faced.
+Before we can usefully discuss solitude, we need to better understand what we mean by this term. To aid us in this effort, we can turn toward Raymond Kethledge and Michael Erwin who wrote a book on the topic of solitude. It took them seven years, but their efforts culminated in the 2017 release of Lead Yourself First. 
+
+The authors state a precise definition of solitude. Many people mistakenly associate this term with physical separation—requiring, perhaps, that you hike to a remote cabin miles from another human being. As Kethledge and Erwin explain, however, solitude is about what’s happening in your brain, not the environment around you. Accordingly, they define it to be a subjective state in which your mind is free from input from other minds.
+
+So as long as your mind is left to grapple only with its own thoughts, you are in solitude. On the other hand, solitude can be banished in even the quietest setting if you allow input from other minds to intrude. In addition to direct conversation with another person, these inputs can also take the form of reading a book, listening to a podcast, watching TV, or performing just about any activity that might draw your attention to a smartphone screen.
 
 > "All of humanity’s problems stem from man’s inability to sit quietly in a room alone” 
 > —Blaise Pascal.
+
+A growing amount of research suggests that the time and space for quiet reflection the cottage enabled may have played a key role in helping Lincoln make sense of the traumas of the Civil War and tackle the hard decisions he faced.
 
 A Canadian social critic named Michael Harris talked about solitude in his 2017 book "Solitude". Harris is concerned that new technologies help create a culture that undermines time alone with your thoughts, noting that “it matters enormously when that resource is under attack".
 

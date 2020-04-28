@@ -41,6 +41,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -98,6 +99,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  font-weight: $header-font-weight;
 }
 
 
@@ -219,7 +221,7 @@ pre {
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
-    padding-right: 5px;
+    // padding-right: 5px;
     vertical-align: text-top;
 }
 
