@@ -312,6 +312,8 @@
   // box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   box-shadow: 0 0 8px 3px rgba(33,33,33,.4);
   // border: 3px solid #D00505;
+  // 0 0 9px 0 rgba(102,189,119,.22), 5px 5px 11px 0 rgba(209,218,209,.5)
+  // translate(0,-3px)
 }
 
 .c-page-title{
@@ -464,4 +466,30 @@
 .wrapper-footer {
   padding-left: 45px;
   padding-right: 45px;
+} 
+
+.ar-banner {
+  position: absolute;
+  left: $spacing-unit * 2;
+  top: $spacing-unit * 8;
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+.ar-banner img {
+  max-width: 177px;
+  border: 2px solid black;
+  filter: drop-shadow(0px 0px 3px black);
+}
+
+.ar-banner-mobile {
+  display: none;
+  @include media-query($on-palm) {
+    display: block;
+  }
+}
+.ar-banner-mobile img {
+  max-width: 90%;
+  border: 2px solid black;
+  // filter: drop-shadow(0px 0px 3px black);
 }
