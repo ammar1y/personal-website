@@ -43,6 +43,34 @@ The analysis aims to explore the following:
 
 ## Tools Used
 
+This analysis was performed using Python and a powerful group of Python libraries including Pandas, Matplotlib, NLTK, ImageAI, WordCloud, and more.
 
+The analysis were performed in a Jupyter Notebook (particularly, in Jupyter Lab).
 
- Here we will use **Python** with some packages like **Pandas** and **Matplotlib** to analyze a dataset that was collected over 205 days. For each of those days, the dataset contains data about the trending videos of that day. It contains data about **more than `40,000` trending videos**. We will analyze this data to get insights into YouTube trending videos, to see what is common between these videos. Those insights might also be used by people who want to increase popularity of their videos on YouTube.
+## Data Source
+
+The data used in this analysis was retrieved from YouTube API. A script was written to run each day throughout 2019 and fetch data from YouTube API about the trending videos of that day (for many countries). The script would then process the data received from YouTube and store them in text files.
+
+The script is not my work. It can be found on Github: [ Trending-YouTube-Scraper](https://github.com/mitchelljy/Trending-YouTube-Scraper).
+
+I put the script on a AWS EC2 instance and scheduled it—using Crontab—to run every day at a specific time.
+
+After 2019 ended, I connected to the AWS instance using FileZilla application and downloaded all the data produced by the script. There was a file for each country for each day of 2019. I fetched data for 20 countries. So as a result, I downloaded 7,300 files.
+
+To perform the analysis, I needed to process the data in order to merge the files for each country into a single CSV file.
+
+## Data Size and Description
+
+**In this post, United-States trending videos will be analyzed**, which constitute a total of 72,994 videos. YouTube usually place 200 videos in the trending list each day which would mean that we should have 73,000 (365 x 200) videos. We have 72,994. This is probably because on a few days, the number of Trending videos was slightly less than 200. 
+
+So **we have data on 72,994 trending videos to analyze**. On YouTube, the same video might appear on the trending list for many days. This means that the 72,994 videos are not unique videos. In fact, among the 72,994 videos, we have **11,177 unique videos**. 
+
+In other words, 11,177 videos showed on the trending list throughout 2019. Some of them might have stayed on the list for 10 days, some for 20 days, etc. We will see later in the analysis more info about this.
+
+The following table shows an example of the data that we have for each video:
+
+![Screen Shot 2020-05-01 at 10.03.48 PM](/Users/ammar/Downloads/Screen Shot 2020-05-01 at 10.03.48 PM.png)
+
+As we can see, we have the ID of the video which is a unique value for the video across YouTube (No two videos have the same ID). We also have the title of the video, its publishing date and time, the channel that published it, its category, and its description and tags. We also have the number of the views, likes, dislikes, and comments of the video. There are also a few more data shown in the table. 
+
+We can see that there is a field named "trending_date". This field specifies the date on which this video was trending. As we said earlier, the same video might appear on the trending-videos list for more than one day. This means that we might find another record in the data for the same video ID but with different "trending_date" and maybe different number of views, comments, likes, etc. (because those numbers are likely to increase from one day to another).
