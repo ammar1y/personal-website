@@ -1,15 +1,15 @@
 ---
 layout: post_ar
-title: "تعلم البرمجة بلغة بايثون - الدرس التاسع: قراءة بيانات من المستخدم + التعليقات"
-date: 2020-04-04
+title: "تعلم البرمجة بلغة بايثون - الدرس العاشر: قراءة بيانات من المستخدم + التعليقات"
+date: 2020-05-10
 categories: [دورة-تعلم-البرمجة-بلغة-بايثون] 
 tags: [بايثون, برمجة, لغات-برمجة, تعلم-البرمجة, البرمجة-للمبتدئين, تعلم-البرمجة-بالعربي]
 postlang: arabic 
-permalink: "/ar/:year/learn-programming-with-python-1-9-arabic"
-sharing-img: "/assets/images/2020/pyc-9-1.png"
+permalink: "/ar/:year/learn-programming-with-python-1-10-arabic"
+sharing-img: "/assets/images/2020/pyc-10-1.png"
 ---
 
-![تعلم البرمجة بلغة بايثون - الدرس التاسع: قراءة بيانات من المستخدم + التعليقات](/assets/images/2020/pyc-10-1.png)
+![تعلم البرمجة بلغة بايثون - الدرس العاشر: قراءة بيانات من المستخدم + التعليقات](/assets/images/2020/pyc-10-1.png)
 
 في هذا الدرس سنتعرف على كيفية قراءة إدخالات من مستخدم برنامجنا واستعمال هذه الإدخالات ضمن البرنامج. وأيضاً سنتعرف على التعليقات في بايثون وفائدتها وكيفية إضافتها.
 
@@ -59,3 +59,4 @@ print('Result =', res)
 
 ## فيديو الدرس
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hW_JOBMMavY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
