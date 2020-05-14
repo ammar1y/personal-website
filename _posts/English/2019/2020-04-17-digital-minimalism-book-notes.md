@@ -9,9 +9,9 @@ permalink: "/:year/digital-minimalism-book-notes"
 
 I recently finished reading "Digital Minimalism: Choosing a Focused Life in a Noisy World" book by Cal Newport. I liked it and found many useful ideas in it especially in the current time where technology has reached unprecedented degrees of proliferation in our lives. Here, I will share what I liked most in this book.
 
-Book page on Goodreads: [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism).
+<img src="/assets/images/2020/digital-min-cover.jpg" style="max-width:200px">
 
-![Digital Minimalism](/assets/images/2020/digital-min-cover.jpg)
+Book page on Goodreads: [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism).
 
 ## The Problems with Modern Technology
 

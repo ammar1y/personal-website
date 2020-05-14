@@ -9,15 +9,15 @@ permalink: "/ar/:year/digital-minimalism-book-notes-ar"
 sharing-img: "/assets/images/2020/digital-min-2.jpg"
 ---
 
-
-
 انتهيت مؤخراً من قراءة كتاب Digital Minimalism: Choosing a Focused Life in a Noisy World  - وهو ما يمكن ترجمته إلى التقليل الرقمي: اختيار حياة من التركيز في عالم كثير الضجيج - لمؤلفه كال نيوبورت الأستاذ المساعد في علم الحاسوب في جامعة جورج تاون الأمريكية ومؤلف عدة كتب أخرى لاقت نجاحاً واسعاً.
 
 أحببت الكتاب وأعجبتني الكثير من الأفكار التي يطرحها والتي لها أهمية عظيمة في وقتنا هذا حيث ازداد توغل التكنولوجيا في حياتنا إلى حد غير مسبوق. في هذه التدوينة سأشارك أكثر ما أحببته في الكتاب (مع تصرف بسيط لجعل المحتوى مناسباً للتدوينة).
 
-صفحة الكتاب على موقع Goodreads الخاص بالكتب: [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism). الكتاب غير مترجم إلى العربية بعد.
+**ملاحظة:** قمت بإنشاء مقطعي فيديو لخصت فيهما الكتاب ، لمشاهدتهما انظر أسفل الصفحة.
 
-![غلاف كتاب Digital Minimalism](/assets/images/2020/digital-min-cover.jpg)
+<img src="/assets/images/2020/digital-min-cover.jpg" style="max-width:200px">
+
+صفحة الكتاب على موقع Goodreads الخاص بالكتب: [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism). الكتاب غير مترجم إلى العربية بعد.
 
 ## ما هي مشكلتنا مع التكنولوجيا الحديثة؟
 
@@ -146,4 +146,8 @@ sharing-img: "/assets/images/2020/digital-min-2.jpg"
 **هل تجعلنا وسائل التواصل الاجتماعي أكثر اتصالاً؟**
 
 في دراسة قام بها فريق كبير من تخصصات متنوعة ونشرت في "المجلة الأمريكية للطب الوقائي" المرموقة في 2017. في هذه الدراسة قام بريماك وفريقه باستطلاع رأي عينة تمثل الراشدين الذين تتراوح أعمارهم بين 19 و 22. وجدت الدراسة أنه كلما ازداد استخدام الأشخاص لوسائل التواصل الاجتماعي زاد احتمال كونهم وحيدين. "إنها وسائل تواصل! ألا يجدر بالناس أن يشعروا بالاتصال عند استخدامها؟" لكن البيانات كانت واضحة: كلما زاد الوقت الذي تنفقه في "الاتصال" عبر هذه الوسائل زادت فرص أن تصبح وحيداً.
+
+## الملخص في فيديو
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nvRrf8SWkto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
