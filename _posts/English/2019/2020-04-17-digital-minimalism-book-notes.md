@@ -15,6 +15,8 @@ Book page on Goodreads: [Digital Minimalism](https://www.goodreads.com/book/show
 
 ## The Problems with Modern Technology
 
+![مشكلة التكنولوجيا الحديثة](/assets/images/2020/digital-min-2.jpg)
+
 The irresistible attraction to screens is leading people to feel as though they’re ceding more and more of their autonomy when it comes to deciding how they direct their attention.
 
 They downloaded the apps and set up accounts for good reasons, only to discover that these services were beginning to undermine the very values that made them appealing in the first place: they joined Facebook to stay in touch with friends across the country, and then ended up unable to maintain an uninterrupted conversation with the friend sitting across the table.
@@ -30,6 +32,8 @@ Many of the apps and sites that keep people compulsively checking their smartpho
 The hot new technologies that emerged in the past decade or so are particularly well suited to foster behavioral addictions, leading people to use them much more than they think is useful or healthy. Indeed, as revealed by whistleblowers and researchers like Tristan Harris, Sean Parker, Leah Pearlman, and Adam Alter, these technologies are in many cases specifically designed to trigger this addictive behavior. Compulsive use, in this context, is not the result of a character flaw, but instead the realization of a massively profitable business plan.
 
 ## The Solution: Digital Minimalism
+
+![التقليلية](/assets/images/2020/digital-min-3.jpg)
 
 Digital Minimalism is a philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.
 
@@ -53,6 +57,8 @@ To allow an optional technology back into your life at the end of the digital de
 - Have rules that specify when and how you use it
 
 ### The Importance of Solitude
+
+![العزلة](/assets/images/2020/digital-min-4.jpg)
 
 Before we can usefully discuss solitude, we need to better understand what we mean by this term. To aid us in this effort, we can turn toward Raymond Kethledge and Michael Erwin who wrote a book on the topic of solitude. It took them seven years, but their efforts culminated in the 2017 release of Lead Yourself First. 
 
@@ -102,6 +108,8 @@ I learned a practice that allows you to regularly enjoy rich phone conversations
 I’ve seen several variations of this practice work well like "Coffee shop hours". In this variation, you pick some time each week during which you settle into a table at your favorite coffee shop with the newspaper or a good book. The reading, however, is just the backup activity. You spread the word among people you know that you’re always at the shop during these hours.
 
 ### Have a High-quality Leisure Time
+
+![](/assets/images/2020/digital-min-5.jpg)
 
 Low-quality leisure time is time spent on mindlessly and lazily browsing social media websites for example.
 

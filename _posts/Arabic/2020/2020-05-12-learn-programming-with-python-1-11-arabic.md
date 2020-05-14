@@ -63,4 +63,7 @@ print('Finish')
 
 ![](/assets/images/2020/pyc-11-2.png)
 
-## 
+## فيديو الدرس
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HzYDIpMSVBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
