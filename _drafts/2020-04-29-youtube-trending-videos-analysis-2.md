@@ -74,3 +74,12 @@ The following table shows an example of the data that we have for each video:
 As we can see, we have the ID of the video which is a unique value for the video across YouTube (No two videos have the same ID). We also have the title of the video, its publishing date and time, the channel that published it, its category, and its description and tags. We also have the number of the views, likes, dislikes, and comments of the video. There are also a few more data shown in the table. 
 
 We can see that there is a field named "trending_date". This field specifies the date on which this video was trending. As we said earlier, the same video might appear on the trending-videos list for more than one day. This means that we might find another record in the data for the same video ID but with different "trending_date" and maybe different number of views, comments, likes, etc. (because those numbers are likely to increase from one day to another).
+
+## Analysis Insights
+
+**The Trending Video with the Highest Number of Views** is a song by BTS band named "Boy With Luv". The video page appears in the image below. As of the time of writing this post, the video has XX views.
+
+![]()
+
+The video was published on 12/April/2019 and on 23/04/2019, it appeared on the trending list with 195,376,667 views which is the highest number of views a trending video had in 2019.
+
