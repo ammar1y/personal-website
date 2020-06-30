@@ -20,16 +20,15 @@ $lineheight: 1.8;
 $print-lineheight: 1.4;
 $textalign: left;
 $fz: 12pt;
-// changed
-$print-fz: 13pt;
 $headsize: $fz * 1.4;
-$print-headsize: $print-fz * 1.4;
 $subhsize: $fz;
-$print-subhsize: $print-fz;
 $namesize: $fz * 2;
-// change
-$print-namesize: $print-fz * 1.5;
 $cont-fz: $fz;
+
+$print-fz: 14pt;
+$print-headsize: $print-fz * 1.4;
+$print-subhsize: $print-fz;
+$print-namesize: $print-fz * 1.5;
 $print-cont-fz: 0.9 * $print-fz;
 
 $pole-width: 10px;
@@ -1064,7 +1063,7 @@ h2.section-title span::after {
   max-width: 100px;
   width: auto;
   height: auto;
-  box-shadow: 0 0 1px 1px #870C1C;
+  // box-shadow: 0 0 1px 1px #870C1C;
 }
 
 @media screen {
@@ -1147,3 +1146,10 @@ h2.section-title span::after {
     display: block;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .flex .flex-right {
+    display: none;
+  }
+}
+
