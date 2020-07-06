@@ -37,9 +37,18 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit * 0.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing-unit * 0.75;
+  margin-top: $spacing-unit * 0.9;
+  font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+li {
+  margin-bottom: 8px;
+}
 
 
 /**
@@ -95,6 +104,8 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  font-weight: 700;
+  font-weight: 600;
 }
 
 
@@ -134,7 +145,8 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  // @include relative-font-size(1.125);
+  @include relative-font-size(1);
   // letter-spacing: -1px;
   // font-style: italic;
 
@@ -258,6 +270,7 @@ table {
 .post ol, .post ul {
   padding-left: 2rem;
   margin: .5rem 0;
+  margin: $spacing-unit * 0.8 0;
 }
 
 .post ul {
@@ -280,3 +293,12 @@ table {
 // ul {
 //   list-style-type: disc;
 // }
+
+body {
+  background-color: #fffffc;
+}
+
+strong, b {
+  font-weight: 700;
+  font-weight: 600;
+}

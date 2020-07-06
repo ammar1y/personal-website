@@ -268,8 +268,9 @@ Now considering only emoji symbols, let's see the **most common emojis** in the 
 
 <br>
 
-
 So 🔥 is the most common with frequency of 154 followed by ™️ then ®.
+
+<p class="text-box-2"><span style="border-bottom:#db1e23 0px solid"><u><a style="color:inherit; letter-spacing:0.5px" href="https://mailchi.mp/14ab38c4581c/for-my-website-en" target="_blank"><b>Subscribe to my email list</b></a></u></span> to know about more interesting posts in the future.</p>
 
 #### What are the Most Common 2-Grams in Video Titles?
 
