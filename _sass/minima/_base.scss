@@ -40,7 +40,7 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit * 0.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
   margin-bottom: $spacing-unit * 0.75;
   margin-top: $spacing-unit * 0.9;
   font-family: "Roboto Slab", "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -104,6 +104,9 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+}
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
   font-weight: 700;
   font-weight: 600;
 }

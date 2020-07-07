@@ -10,9 +10,11 @@ sharing-img: "/assets/images/2020/yta2-cover.png"
 
 <img src="/assets/images/2020/yta2-cover.png" style="border:1px solid #333333">
 
-Around 1.5 years ago, a few months after entering the data-science field, I did an [analysis of YouTube trending videos](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) in US. That analysis was performed on trending videos of some months in 2017 and 2018; 40,000 videos were analyzed. The analysis attracted some interest on [Kaggle](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) and [Reddit](https://www.reddit.com/r/datascience/comments/9kpmcn/i_analyzed_more_than_40000_youtube_trending/); I also received some emails praising the work done. That was 1.5 years ago.
+Around 1.5 years ago, I did an [analysis of YouTube trending videos](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) in US. That analysis was performed on trending videos of some months in 2017 and 2018. The analysis received a lot of interest on [Kaggle](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) and [Reddit](https://www.reddit.com/r/datascience/comments/9kpmcn/i_analyzed_more_than_40000_youtube_trending/); I also received some emails praising the work done. That was 1.5 years ago.
 
-**Today**, I present an improved and expanded version of that analysis. This analysis is **more advanced** and contains **new interesting elements**.
+**Today**, I present an improved and expanded version of that analysis. This analysis is more advanced and contains new interesting elements. In this analysis, **All trending videos for the whole year of 2019** were analyzed (More than **70,000** videos). 
+
+Titles, descriptions, thumbnails, tags, views, likes/dislikes, and comments were all analyzed to produce the results shown in this post. Continue reading to know more about the analysis and the data or you can <a href="#analysis-res">jump directly to the results section</a>.
 
 ## What are YouTube Trending Videos?
 
@@ -83,7 +85,9 @@ As we can see, we have the ID of the video which is a unique value for the video
 
 We can see that there is a field named "trending_date". This field specifies the date on which this video was trending. As we said earlier, the same video might appear on the trending-videos list for more than one day. This means that we might find another record in the data for the same video ID but with different "trending_date" and maybe different number of views, comments, likes, etc. (because those numbers are likely to increase from one day to another).
 
-## Analysis Insights
+<p id="analysis-res"></p>
+
+## Analysis Results
 
 Now let's start the best part of this post, let's see the analysis results.
 
