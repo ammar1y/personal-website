@@ -322,3 +322,42 @@ p.text-box-2 {
   color: #856404;
   background-color: #fff3cd;
 }
+
+#markdown-toc::before {
+  content: "Contents";
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+  list-style: decimal;
+  margin: 0;
+}
+
+#markdown-toc {
+  font-size: 14px;
+  background-color: #f8f9fa;
+}
+
+#markdown-toc li {
+  margin-bottom: 0;
+}
+
+#markdown-toc li a {
+  color: #0645ad;
+}
+
+#markdown-toc li::before {
+  content: "";
+}
+
+#markdown-toc {
+  border: 1px solid #aaa;
+  padding: 1.5em 2em;
+  list-style: decimal;
+  display: inline-block;
+}
+

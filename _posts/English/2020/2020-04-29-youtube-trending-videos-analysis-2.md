@@ -16,6 +16,8 @@ Around 1.5 years ago, I did an [analysis of YouTube trending videos](https://www
 
 Titles, descriptions, thumbnails, tags, views, likes/dislikes, and comments were all analyzed to produce the results shown in this post. Continue reading to know more about the analysis and the data or you can <a href="#analysis-res">jump directly to the results section</a>.
 
+* TOC
+{:toc}
 ## What are YouTube Trending Videos?
 
 YouTube, as you know, is the most popular and most used video platform in the world today. YouTube has [a list of **trending videos**](https://www.youtube.com/feed/trending). I'll quote the description of trending videos from [YouTube itself](https://support.google.com/youtube/answer/7239739?hl=en):
@@ -912,9 +914,10 @@ If you want to hire me for a project, please email me on ammar5656@gmail.com and
 
 
 
-
-
-
-
-
+<style>
+  #markdown-toc #markdown-toc-analysis-results {
+    font-weight: bold;
+    font-weight: 600;
+  }
+</style>
 
