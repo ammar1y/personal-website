@@ -27,25 +27,29 @@ YouTube, as you know, is the most popular and most used video platform in the wo
 >
 > The list of trending videos is updated roughly every 15 minutes. With each update, videos may move up, down, or stay in the same position in the list.
 
-## Goals of the Analysis
+## Summary of Some Key Results of the Analysis
 
 The main goal of the analysis is to find interesting facts and patterns by exploring the data and by using effective visualizations.
 
-Some of the questions the analysis will answer:
+**If you don't have time** to read the full analysis, here are some of the insights that were extracted from the data along with links to their sections in the analysis:
 
-- What is the average/minimum/maximum view count for 2019's trending videos?
-- Which videos appeared on the trending list the most (because some videos might appear on the trending list for more than one day)? 
-- What are the most common words in the titles/descriptions/tags of trending videos?
-- What are the title lengths of the trending videos? What is the average/minimum/maximum title length?
-- Which channels have more trending videos than others?
-- What are the top categories of trending videos? Are "Entertainment" videos more trending than "Gaming" videos?
-- How many views/comments/likes trending videos have when first appearing on the trending list?
-- How many days are between publishing a video and its first appearance on the trending list?
-- How long are the descriptions/tags of trending videos?
-- What are the most used colors in the thumbnails of trending videos?
-- What are the most common objects in the thumbnails of trending videos? (Running AI object detection algorithm on all thumbnails)
+- Linus Tech Tips (a technology channel) was the channel that [produced most trending videos in 2019](#trending-channels). It is a technology (not entertainment nor music) and personal (not corporate) channel. More than that, the 2nd and 3rd channels after Linus Tech Tips were cooking channels.
+- While a video might stay on the trending list for one day or less, there are 6 videos that appeared on the list [for 30 days](#trending-for-30-days).
+- BTS' song "Boy With Luv" was the most [viewed](#trending-videos-and-views), [liked](#trending-videos-and-likes-and-dislikes), and [commented](#trending-videos-and-comments) video. However, it was also the 5th most [disliked](#trending-videos-and-likes-and-dislikes) video.
+- Some videos appeared on the trending list [when they had only around 50,000 views](#how-many-views-videos-had-when-they-first-became-trending).
+- Words like "official", "video", "2019", "vs", "trailer", "music", "game", "new", "highlights", "first", and "challenge" were among the [most common in trending video titles](#what-are-the-most-common-words-in-video-titles). So if you include the current year in your title, does that increase trending chances?
+- 🔥 was the [most common emoji](#what-are-the-most-common-words-in-video-titles) in trending video titles.
+- While the minimum was 3 and the maximum was 100, most trending videos [have titles lengths between 36 and 64 characters](#titles-lengths).
+- There was a video that became trending when it had [only 7 comments](#how-many-comments-videos-had-when-they-first-became-trending).
+- YouTube Rewind videos of 2018 and 2019 were the 1st and 2nd [most disliked videos](#trending-videos-and-likes-and-dislikes).
+- On average, [videos take 1.5 days](#how-long-does-it-take-a-video-to-become-trending) to appear on the trending list for the first time.
+- While the allowed maximum is 5,000 character, most trending videos have their [descriptions length between 500 and 1500 characters](#how-long-is-the-description).
+- A lot of trending videos put [social media links](#most-common-words-in-trending-videos-descriptions) in their descriptions.
+- Almost all trending videos [use tags](#trending-videos-tags). On average, 21 tags.
+- By running an object-detection algorithm on the thumbnails of trending videos, [it turned out that a person is the most common object](#whats-inside-trending-videos-thumbnails) in the thumbnails. So you might consider adding a person photo in your next video.
+- Do you want to see the [most common colors](#what-are-the-most-used-colors-in-trending-videos-thumbnails) in video thumbnails that were extracted after a lot of processing?
 
-The analysis covers much more topics as you will see soon.
+The analysis covers **much more** as you will see soon...
 
 ## Tools Used
 
