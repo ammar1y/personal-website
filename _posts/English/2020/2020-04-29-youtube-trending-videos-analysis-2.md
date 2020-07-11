@@ -11,6 +11,8 @@ comments: true
 
 <img src="/assets/images/2020/yta2-cover.png" style="border:1px solid #333333">
 
+<p class="text-box-3">This analysis on: <a style="color:inherit;" href="https://thehustle.co/what-you-can-learn-from-youtubes-trending-videos/" target="_blank"><b>The Hustle newsletter</b></a> (lead story), <a style="color:inherit;" href="https://news.ycombinator.com/item?id=23762180" target="_blank"><b>Hacker News</b></a>, <a style="color:inherit;" href="https://www.demandcurve.com/newsletter#t77r4ayu03tun5215smc" target="_blank"><b>The Growth Newsletter</b></a> (issue #021), <a style="color:inherit;" href="https://twitter.com/SocialBlade/status/1281299735572332546" target="_blank"><b>Social Blade</b></a>, <a style="color:inherit;" href="https://www.datascienceweekly.org/" target="_blank"><b>Data Science Weekly newsletter</b></a> (issue of Jul 09 2020), <a style="color:inherit;" href="https://www.tubefilter.com/2020/07/10/what-makes-a-youtube-video-trending-2019-ammar-alyousfi/" target="_blank"><b>Tubefilter</b></a>.</p>
+
 Around 1.5 years ago, I did an [analysis of YouTube trending videos](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) in US. That analysis was performed on trending videos of some months in 2017 and 2018. The analysis received a lot of interest on [Kaggle](https://www.kaggle.com/ammar111/youtube-trending-videos-analysis) and [Reddit](https://www.reddit.com/r/datascience/comments/9kpmcn/i_analyzed_more_than_40000_youtube_trending/); I also received some emails praising the work done. That was 1.5 years ago.
 
 **Today**, I present an improved and expanded version of that analysis. This analysis is more advanced and contains new interesting elements. In this analysis, **All trending videos for the whole year of 2019** were analyzed (More than **70,000** videos). 
@@ -19,14 +21,6 @@ Titles, descriptions, thumbnails, tags, views, likes/dislikes, and comments were
 
 * TOC
 {:toc}
-## What are YouTube Trending Videos?
-
-YouTube, as you know, is the most popular and most used video platform in the world today. YouTube has [a list of **trending videos**](https://www.youtube.com/feed/trending). I'll quote the description of trending videos from [YouTube itself](https://support.google.com/youtube/answer/7239739?hl=en):
-
-> Trending helps viewers see what’s happening on YouTube and in the world. Trending aims to surface videos that a wide range of viewers would find interesting. Some trends are predictable, like a new song from a popular artist or a new movie trailer. Others are surprising, like a viral video. Trending isn't personalized and displays the same list of trending videos in each country to all users.
->
-> The list of trending videos is updated roughly every 15 minutes. With each update, videos may move up, down, or stay in the same position in the list.
-
 ## Summary of Some Key Results of the Analysis
 
 The main goal of the analysis is to find interesting facts and patterns by exploring the data and by using effective visualizations.
@@ -50,6 +44,14 @@ The main goal of the analysis is to find interesting facts and patterns by explo
 - Do you want to see the [most common colors](#what-are-the-most-used-colors-in-trending-videos-thumbnails) in video thumbnails that were extracted after a lot of processing?
 
 The analysis covers **much more** as you will see soon...
+
+## What are YouTube Trending Videos?
+
+YouTube, as you know, is the most popular and most used video platform in the world today. YouTube has [a list of **trending videos**](https://www.youtube.com/feed/trending). I'll quote the description of trending videos from [YouTube itself](https://support.google.com/youtube/answer/7239739?hl=en):
+
+> Trending helps viewers see what’s happening on YouTube and in the world. Trending aims to surface videos that a wide range of viewers would find interesting. Some trends are predictable, like a new song from a popular artist or a new movie trailer. Others are surprising, like a viral video. Trending isn't personalized and displays the same list of trending videos in each country to all users.
+>
+> The list of trending videos is updated roughly every 15 minutes. With each update, videos may move up, down, or stay in the same position in the list.
 
 ## Tools Used
 

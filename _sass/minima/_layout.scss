@@ -323,6 +323,14 @@ p.text-box-2 {
   background-color: #fff3cd;
 }
 
+p.text-box-3 {
+  border: 1px #c3e6cb solid;
+  border-radius: 5px;
+  padding: 8px 14px;
+  color: #155724;
+  background-color: #d4edda;
+}
+
 #markdown-toc::before {
   content: "Contents";
   font-weight: bold;
