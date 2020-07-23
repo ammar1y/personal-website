@@ -6,7 +6,7 @@ categories: [data-science]
 tags: [data-science, data-analysis, data-visualization, video-analysis, data-science-project, python, pandas, matplotlib, youtube-analysis] 
 permalink: "/:year/youtube-trending-videos-analysis-2019-us"
 sharing-img: "/assets/images/2020/yta2-cover.png"
-comments: true
+comments: false
 ---
 
 <img src="/assets/images/2020/yta2-cover.png" style="border:1px solid #333333">
