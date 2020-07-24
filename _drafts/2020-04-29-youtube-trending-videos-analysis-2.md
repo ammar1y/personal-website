@@ -71,6 +71,8 @@ The scraping script is not my work. It can be found on Github: [ Trending-YouTub
 
 After 2019 ended, I connected to the AWS instance using FileZilla application and downloaded all the data produced by the script. There was a file for each day of 2019. To perform the analysis, I needed to process the data in order to merge the files into a single CSV file.
 
+<p class="text-box-1">If you want to <strong>download the data used in this analysis</strong> which describes 2019's trending videos in the United States, you can buy it securely on Gumroad <u><strong><a href="https://gum.co/qEzKK" target="_blank">on this link</a></strong></u> or by using the button below. Along with United States, you'll also get trending-videos data for United Kingdom, Canada, Denmark, Malaysia, Saudi Arabia, and other countries as well.</p>
+
 ## Data Size and Description
 
 **In this post, United-States trending videos will be analyzed**, which constitute a total of **72,994** videos. YouTube usually place 200 videos in the trending list each day which would mean that we should have 73,000 (365 x 200) videos. We have 72,994. This is probably because on a few days, the number of Trending videos was slightly less than 200. 
@@ -904,6 +906,16 @@ As mentioned above, we used TinyYOLOv3 algorithm which is fast but may not be th
 In this post, we saw the results of analyzing YouTube trending videos of 2019. For me, the results were interesting and insightful. Hope they were the same for you.
 
 <p class="text-box-2"><u>If you like this post</u>, please consider <span style="border-bottom:#db1e23 0px solid"><u><a style="color:inherit; letter-spacing:0.5px" href="https://mailchi.mp/14ab38c4581c/for-my-website-en" target="_blank"><b>subscribing to my email list</b></a></u></span>. Just click on the link and submit your email to know about more interesting posts in the future.</p>
+
+<p class="text-box-1">If you want to <strong>download the data</strong> used in this analysis which describes 2019's trending videos in the United States, you can buy it securely on Gumroad <u><strong><a href="https://gum.co/qEzKK" target="_blank">on this link</a></strong></u> or by using the button below. Along with United States, you'll also get trending-videos data for United Kingdom, Canada, Denmark, Malaysia, Saudi Arabia, and other countries as well.</p>
+
+<br>
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+
+<p style="text-align:center"><a class="gumroad-button" href="https://gum.co/qEzKK" target="_blank">Buy the data</a></p>
+
+<br>
 
 If you want to hire me for a project, please email me on ammar5656@gmail.com and let's discuss it. Here is my resume: https://ammar-alyousfi.com/s-resume/.
 
