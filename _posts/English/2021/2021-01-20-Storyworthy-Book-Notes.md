@@ -59,7 +59,7 @@ That’s it. Set a timer for ten minutes, follow these three rules, and go. I al
 
 All you need for this exercise is pen and paper. Fill the "First", "Last", "Best", and "Worst" columns for each prompt as you can see in the example image below:
 
-![Screen Shot 2021-01-19 at 12.51.25 AM](/Users/ammar/Library/Application Support/typora-user-images/Screen Shot 2021-01-19 at 12.51.25 AM.png)
+![](/assets/images/2021/storyworthy-1.png)
 
 ### Every Story Takes Only Five Seconds to Tell
 
